@@ -1,7 +1,7 @@
 import React from "react";
-import { Card } from "./Card";
-import { ImageCard } from "./ImageCard";
-import { Menu } from "./Menu";
+import { Card } from "../../components/Card";
+// import { ImageCard } from "../ImageCard";
+import { Menu } from "../../components/Menu";
 import "./style.css";
 
 export const PlaceDescription = () => {

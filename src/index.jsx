@@ -11,4 +11,3 @@ import { Bookings } from "./screens/Bookings";
 const app = document.getElementById("app");
 const root = ReactDOMClient.createRoot(app);
 root.render(<HomePage />);
-root.render(<Destinations />);
