@@ -5,21 +5,12 @@ import Register from "./components/Auth/Register";
 import Login from "./components/Auth/Login";
 import Menu from "./components/Menu/Menu";
 
-
-function App() {
+const App = () => {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/homepage" element={<HomePage />} />
-
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-
-        </Routes>
-      </BrowserRouter>
+    <Menu />
     </>
-  );
+  )
 }
 
 export default App;

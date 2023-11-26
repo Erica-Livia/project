@@ -1,0 +1,51 @@
+# navbar done
+# Doing the HomePage
+    #Resources muri Wanderlust frontend
+        Copy codes from figma generated codes
+        try to fit the circumstances
+
+#Video 48-59 min
+
+GOOD LUCK!!!
+==========================================
+Sunday
+# navbar done ☑️
+# HomePage done☑️
+# Destinations page done☑️
+# Doing the place description page
+# Next: 
+    - Bookings
+    - Place description
+    - images&Description gathering (will probably have a db for it)(find tuto of how to do it/watch gasore's work)
+    - Login/Sign up/forms
+    - review(posting, editing, deleting)
+    - profile(upload a photo, change name ....)
+
+
+    -Readme, slides, demo video, submission on friday at 8:00 PM
+    -Azubi work, you're LATE MF
+
+# Might create a "Popular Tourist attraction" components DONE☑️☑️
+
+# Work on the Login and Submission forms
+
+# Video 57 min-- skipped to the last part(might not need to finish it)
+
+# Add transform:scale(1.2) to cards, 'video'
+# Add images in the ./public/img/ folder (Tomorrow monday)
+#
+
+# Will probably have to find another tutorial.
+# Gasore's repo
+#Choose a db mngment
+#progress tracking
+
+
+# Backend..
+
+
+
+GOOD LUCK
+=============================================
+
+Monday
