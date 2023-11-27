@@ -15,11 +15,12 @@ Sunday
 # Doing the place description page
 # Next: 
     - Bookings
-    - Place description
-    - images&Description gathering (will probably have a db for it)(find tuto of how to do it/watch gasore's work)
+    - Place description 🟥
+    - images&Description gathering (will probably have a db for it)(find tuto of how to do it/watch gasore's work) 
     - Login/Sign up/forms
     - review(posting, editing, deleting)
     - profile(upload a photo, change name ....)
+    - find a way to display db data's on screen 🟥
 
 
     -Readme, slides, demo video, submission on friday at 8:00 PM
