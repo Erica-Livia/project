@@ -1,14 +1,16 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "react-toastify/dist/ReactToastify.css";
-import HomePage from "./components/HomePage";
-import Register from "./components/Auth/Register";
-import Login from "./components/Auth/Login";
-import Menu from "./components/Menu/Menu";
-
+import React from 'react'
+import Nav from './nav'
+import Rout from './rout';
+import { BrowserRouter } from 'react-router-dom';
+import Footer from './footer';
 const App = () => {
   return (
     <>
-    <Menu />
+    <BrowserRouter>
+    <Nav />
+    <Rout />
+    <Footer />
+    </BrowserRouter>
     </>
   )
 }

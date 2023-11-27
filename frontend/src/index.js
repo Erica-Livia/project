@@ -1,19 +1,23 @@
-import React from "react";
-import ReactDOMClient from "react-dom/client";
-// import { HomePage } from "./screens/HomePage";
-// import { Destinations } from "./screens/Destinations";
-// import { Guides } from "./screens/Guides";
-// import { Profile } from "./screens/Profile";
-// import { PlaceDesciption } from "./screens/PlaceDescription";
-// import {GuideDescription } from "./screens/GuideDescription";
-// import { Bookings } from "./screens/Bookings";
-import "./index.css";
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { Auth0Provider } from '@auth0/auth0-react';
 
-const root = ReactDOMClient.createRoot(app);
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Provider store={store}>
-      <App />
-    </Provider>
-  );
-  
+  <Auth0Provider
+    domain="dev-bpnz0s26es2piezb.us.auth0.com"
+    clientId="1A8wbkIJfbjUfOv01AxxH6m0cWb6Tr47"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}
+    > 
+    <App />
+  </Auth0Provider>  
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
