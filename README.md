@@ -1,72 +1,53 @@
-Wanderlust - a tourism website
+# Wanderlust- Tourism Website
 
-# Getting Started with Create React App
+Wanderlust is a tourism website from the project Discover Burundi, built using React, Node.js and MongoDB. It allows users to discover and book travel destinations.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Accessing the Website
 
-## Available Scripts
+There are two ways you can access and view the Wanderlust website:
 
-In the project directory, you can run:
+### Live Website
 
-### `npm start`
+The live Wanderlust Website is deployed on Netlify:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[wanderlustbi](https:wanderlustbi.netlify.app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Locally
 
-### `npm test`
+#### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before getting started, ensure you have the following installed:
 
-### `npm run build`
++ Node.js (v16+) and npm
++ MongoDB Community Server
++ Git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo
+`git clone https://github.com/Erica-Livia/wanderlust.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install backend dependencies
+`cd wanderlust/backend`
+`npm install`
+ 
+3. Configure environment variables
++ Create a .env file in /backend and add the following:
+`MONGO_URI='(will be available later)'`
+`PORT=4000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Seed database
+`node seeds/seed.js`
 
-### `npm run eject`
+5. Install frontend dependencies
+`cd ../frontend`
+`npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Start development servers
++ API server:
+`cd ../backend`
+`npm run dev (for nodemon)`
++ React server:
+`npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The frontend app should now be running on http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Explore Burundi's top attractions on the map!
