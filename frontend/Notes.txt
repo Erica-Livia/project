@@ -70,3 +70,13 @@ New Goals:
         4. Booking(Userid , User_First Name, NumberPerson, DateTime, PlacePrice)
 
         🟥🟥 BookingCard component: Nbr persons, Date(calendar), validation. 
+
+
+
+    🟥 Finish Destination
+    🟥 Place Description
+    🟥 Checkout Page
+    🟥 bookingCard component
+    🟥 login&signup
+
+    🟥🟥 Meeting with Lib&Sen
