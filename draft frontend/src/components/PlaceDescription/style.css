@@ -5,18 +5,6 @@
   flex-direction: column;
   position: relative;
 }
-
-.place-description .sidebar {
-  align-items: flex-start;
-  background-color: #000000;
-  display: flex;
-  flex: 0 0 auto;
-  justify-content: center;
-  padding: 12px 1260px 12px 410px;
-  position: relative;
-  width: 1920px;
-}
-
 .place-description .item {
   align-items: center;
   display: flex;

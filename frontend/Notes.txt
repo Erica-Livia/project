@@ -20,7 +20,7 @@ Sunday
     - Login/Sign up/forms
     - review(posting, editing, deleting)
     - profile(upload a photo, change name ....)
-    - find a way to display db data's on screen 🟥
+    - find a way to display db data's on screen 🟥🟥🟥
 
 
     -Readme, slides, demo video, submission on friday at 8:00 PM
@@ -50,3 +50,23 @@ GOOD LUCK
 =============================================
 
 Monday
+Tuesday:
+New Goals:
+    1. Implement the booking feature.: SRS
+        🟥 Booking page (par defaut: You have no bookings yet)(1 Booking, )
+        🟥 Place description( calendar )
+        🟥 Backend for booking
+        🟥 Payment(??) or just add to carts
+
+    2. Guides 
+        🟥 Pages
+        🟥 Guide description
+        🟥 Contact (email, numero, name, categorie)
+
+    🟥3. Database:
+        1. User (id, First Name, Last Name, Email,Password, Bookings)
+        2. Places(id, Name, Description, Categorie, Image, Prix, 'review')
+        3. Guides(id, Name, Email, Number, Speciality)
+        4. Booking(Userid , User_First Name, NumberPerson, DateTime, PlacePrice)
+
+        🟥🟥 BookingCard component: Nbr persons, Date(calendar), validation. 

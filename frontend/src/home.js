@@ -81,7 +81,7 @@ const Home = () => {
           <div className="row">
             <div className="article">
               <div className="image-wrapper">
-                <div className="image-2" />
+                <div className="image-3" />
               </div>
               <div className="frame-8">
                 <div className="title-14">Personalized Service</div>

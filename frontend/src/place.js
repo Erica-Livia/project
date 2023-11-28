@@ -7,32 +7,30 @@ const Place = () => {
     return (
         <>
         <div className="place-description">
-      <div className="sidebar">
-        <div className="item">
-          <p className="p">Gitega &gt; Gishora &gt; Drum Sanctuary</p>
-        </div>
-      </div>
       <div className="frame-7">
         <div className="text-wrapper-3">Gishora Drum Sanctuary</div>
         <img src='' />
       </div>
-      <div className="frame-8">
-        <img className="img" alt="" src="./public/img/img.jpg" />
+      <div className="images">
+        <img className="img" alt="" src="" />
+        <img className="img" alt="" src="" />
+        <img className="img" alt="" src=""/>
+      </div>
+      <div className="review">
         <div className="frame-9">
           <div className="text-wrapper-4">4.6/5</div>
         </div>
         <div className="frame-9">
-          <div className="text-wrapper-5">157 Reviews</div>
+          <div className="text-wrapper-4">157 Reviews</div>
         </div>
       </div>
-      <div className="frame-wrapper">
-        <div className="frame-10">
-          <div className="text-wrapper-6">Summary</div>
-        </div>
+      
+      <div className="summary">
+          <p>Summary</p>
       </div>
-      <div className="frame-11">
-        <div className="frame-9">
-          <p className="gishora-drum">
+      <div className="container">
+        <div className="description">
+          <p>
             Gishora Drum Sanctuary is a mesmerizing cultural haven nestled in the heart of Burundi. This enchanting
             sanctuary is a testament to the rich heritage and traditions of the Burundian people. With its vibrant
             atmosphere and captivating rhythms, the Gishora drum sanctuary offers visitors a unique opportunity to
@@ -374,7 +372,6 @@ const Place = () => {
       </div>
     </div>
         </>
-    )
-}
+    )}
 
 export default Place;

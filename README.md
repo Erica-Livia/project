@@ -1,2 +1,1 @@
-Wanderlust - A tourism Website
-
+Wanderlust - a tourism website

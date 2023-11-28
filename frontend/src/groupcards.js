@@ -20,7 +20,7 @@ export const GroupCards = ({ featured }) => {
           </div>
         </div>
         <div className="frame-5">
-          <Card state="active" />
+          <Card state="active"  />
           <Card state="active" />
           <Card state="active" />
           <Card state="active" />
