@@ -10,11 +10,11 @@ There are two ways you can access and view the Wanderlust website:
 
 The live Wanderlust Website is deployed on Netlify:
 
-[wanderlustbi](https:wanderlustbi.netlify.app)
+[wanderlust.com](https:wanderlustbi.netlify.app)
 
 ### Locally
 
-#### Prerequisites
+### + Prerequisites
 
 Before getting started, ensure you have the following installed:
 
@@ -22,7 +22,7 @@ Before getting started, ensure you have the following installed:
 + MongoDB Community Server
 + Git
 
-1. Clone the repo
+1. Clone the repo  
 `git clone https://github.com/Erica-Livia/wanderlust.git`
 
 2. Install backend dependencies
