@@ -19,7 +19,6 @@ The live Wanderlust Website is deployed on Netlify:
 Before getting started, ensure you have the following installed:
 
 + Node.js (v16+) and npm
-+ MongoDB Community Server
 + Git
 
 ### Installation
@@ -27,26 +26,13 @@ Before getting started, ensure you have the following installed:
 1. Clone the repo  
 `git clone https://github.com/Erica-Livia/wanderlust.git`
 
-2. Install backend dependencies  
-`cd wanderlust/backend`  
-`npm install`
- 
-3. Configure environment variables  
-+ Create a .env file in /backend and add the following:  
-`MONGO_URI='(will be available later)'`  
-`PORT=4000`  
-
-4. Seed database  
-`node seeds/seed.js`
-
-5. Install frontend dependencies  
+2. Install frontend dependencies
+   
 `cd ../frontend`  
 `npm install`
 
-6. Start development servers  
-+ API server:  
-`cd ../backend`  
-`npm run dev (for nodemon)`  
+3. Start development servers  
+
 + React server:  
 `npm start`
 
@@ -54,3 +40,5 @@ The frontend app should now be running on http://localhost:3000.
 
 
 ## Explore Burundi's top attractions with Wanderlust!
+
+### Note: Future enhancements: This is only the 1st version of Wanderlust, the website will continue be built ( for fun:) & in another git repo ). See you!
