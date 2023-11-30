@@ -80,3 +80,8 @@ New Goals:
     🟥 login&signup
 
     🟥🟥 Meeting with Lib&Sen
+
+    Readme✅
+
+
+    🟥 Video 1h09min04sec, interesting way to display content
