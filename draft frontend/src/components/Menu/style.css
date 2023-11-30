@@ -1,0 +1,134 @@
+.Menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  height: 120px;
+  justify-content:space-between;
+  padding: 0px 60px;
+  position: relative;
+  width: 100%;
+}
+
+.menu .logo {
+  align-items:center;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.menu .text-wrapper {
+  align-items: center;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.menu .div {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px 8px 16px;
+  position: relative;
+  width: 526px;
+}
+
+.menu .icon-search {
+  height: 32.13px;
+  position: relative;
+  width: 32.13px;
+}
+
+.menu .frame {
+  align-items: center;
+  background-color: #000000;
+  border-radius: 20px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px 16px;
+  position: relative;
+}
+
+.menu .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.menu .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.menu .frame-3 {
+  align-items:end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position:fixed;
+}
+
+.menu .div-wrapper {
+  align-items: right;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.menu .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.menu .ellipse {
+  background-color: #d9d9d9;
+  border-radius: 27px;
+  height: 54px;
+  position:relative;
+  width: 54px;
+}
+
+.menu .default {
+  gap: 24px;
+}
