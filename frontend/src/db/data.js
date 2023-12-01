@@ -1,6 +1,21 @@
-const Homedest = 
-[
+import { AiFillStar } from "react-icons/ai";
+const data = [
+
     {
+        img:"https://www.kibiranationalparkburundi.com/wp-content/uploads/2016/03/Gishora-drum-sanctuary....jpg",
+        title: "Gishora Drum Sanctuary",
+        cat: "culture",
+        shortdesc: "Drum Sanctuary",
+        desc: "Gishora Drum Sanctuary is a mesmerizing cultural haven nestled in the heart of Burundi. \
+        This enchanting sancctuary is a testament to the rich heritage and traditions of the Burundian people. With its vibrant \
+        atmosphere and captivating rhythms, the Gishora drum sanctuary offers visitors a unique opportunity to\
+        immerse themselves in the captivation world of traditional drumming. Visitors witness the powerful\
+        performances and experience the rich cultural heritage of Burundi firsthand.",
+        price: "$20",
+    },
+
+    {   
+    
         id:1,
         Title:"Gishora drum sanctuary",
         Cat: "Culture",
@@ -224,4 +239,4 @@ const Homedest =
 
 ]
 
-export default Homedest;
+export default data;

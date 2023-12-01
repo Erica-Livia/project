@@ -2,7 +2,7 @@ import React from "react";
 import './popular.css';
 import { Link } from "react-router-dom";
 
-const Popular = () => {
+const Popular1 = () => {
     return (
         <>
         <div className="container">
@@ -40,11 +40,10 @@ const Popular = () => {
               <div className="subtitle-3">Rated 4.7/5</div>
             </div>
           </div>
-          <button><Link to='/destinations' className="link">Explore More</Link></button>
           
         </div>
         </>
     )
 }
 
-export default Popular;
+export default Popular1;

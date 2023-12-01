@@ -11,9 +11,14 @@
     padding: 10px 10px;
 }
 
+.logo:hover{
+    transform:scale(1.15);
+    transition: 1s;
+}
+
 .logo .link  {
     text-decoration: none;
-    color: black;
+    color: rgb(64, 81, 64);
     font-size: 20px;
     font-weight: 800;
     font-family: 'Arial', Times, serif;
@@ -23,7 +28,7 @@
 
 .main_header {
     padding: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(64, 81, 64);
     align-items: center;
     justify-content: center;
     position: relative;
@@ -46,9 +51,9 @@
 .main_header .container .search_box input {
     outline: none;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid rgb(64, 81, 64);
     border-radius: 20px;
-    color: white;
+    color: black;
     width:100%;
     
 
@@ -56,16 +61,21 @@
 
 .main_header .container .button {
     display: flex;
-    border: 1px solid black;
+    border: 1px solid rgb(64, 81, 64);
     border-radius: 20px;
     outline: none;
     padding: 10px 7px;
     cursor: pointer;
-    background-color: black;
+    background-color:rgb(64, 81, 64);
     color: white;
     font-size:x-large;
     margin-left: 10px;
     width:40px;
+}
+
+.main_header .container .button:hover {
+    background-color:black;
+    transform: scale(1.1);
 }
 
 .main_header .container .nav {
@@ -83,13 +93,13 @@
     padding:8px;
 }
 .main_header .container .nav ul li {
-    margin-left: 10px;
+    margin-left: 25px;
     list-style: none;
 }
 
 .main_header .container .nav ul li .link {
     text-decoration: none;
-    color: black;
+    color: rgb(64, 81, 64);
     font-weight: bold;
     transition: 0.5s;
 }
@@ -99,10 +109,10 @@
 }
 
 .main_header .container .nav button {
-    margin-left: 5px;
+    margin-left: 0px;
     padding-top: 7px;
-    font-size: 19px;
-    color:black;
+    font-size: 15px;
+    color:rgb(64, 81, 64);
     font-weight: bolder;
     cursor: pointer;
     outline: none;
@@ -110,11 +120,19 @@
     background: none;
 }
 
-.main_header .container .nav ul li .link:hover {
-    color: darkblue;
+.main_header .container .nav ul li:hover {
+    transform: scale(1.15);
+    transition: 0.4s;
+    
+}
+
+.main_header .container .nav ul li .link:hover{
+    color: green;
 }
 
 .main_header .container .nav .auth button:hover{
-    color: darkblue;
+    transform: scale(1.20);
+    transition: 0.4s;
+    color: green;
 }
 

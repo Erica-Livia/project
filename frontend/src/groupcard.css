@@ -6,13 +6,14 @@
     padding: 20px 170px;
     position: relative;
     width: 100%;
-    background-color: black;
+    background-color: rgb(64, 81, 64);
   }
   
   .group-cards .frame-4 {
     align-items: flex-start;
     display: flex;
     flex: 0 0 auto;
+    padding: 20px;
     justify-content: space-between;
     position: relative;
     width: 100%;
@@ -62,14 +63,19 @@
     text-decoration: none;
     color: #ffffff;
   }
+
+  .group-cards .title-8:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+  }
   .group-cards .frame-5 {
     align-items: flex-start;
     position: relative;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap; 
-    gap: 15px;
-    padding: 20px 0px;
+    gap: 30px;
+    padding: 20px 20px;
     justify-content: space-between;
   }
   

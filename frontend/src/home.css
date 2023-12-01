@@ -86,11 +86,12 @@
     flex-direction: column;
     gap: 12px;
     position: relative;
+    color: rgb(64, 81, 64);
   }
   
    .title-wrapper {
     align-items: center;
-    background-color: #000000;
+    background-color: rgb(64, 81, 64);
     border-radius: 8px;
     display: flex;
     flex: 0 0 auto;
@@ -237,8 +238,8 @@
   
 .seconday-2 {
     align-items: center;
-    border: 1px solid;
-    border-color: #000000;
+    border: 1px solid ;
+    border-color: rgb(64, 81, 64);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -249,7 +250,7 @@
   }
   
 .title-13 {
-    color: #000000;
+    color: rgb(64, 81, 64);
     font-family: "Roboto", Helvetica;
     font-size: 16px;
     font-weight: 500;
@@ -263,7 +264,7 @@
   
 .primary-2 {
     align-items: center;
-    background-color: #000000;
+    background-color: rgb(64, 81, 64);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -319,7 +320,7 @@
   
 .image-2 {
     align-self: stretch;
-    background-color: #d8d8d880;
+    background-image: url();
     flex: 1;
     flex-grow: 1;
     position: relative;
@@ -327,7 +328,7 @@
   
   .image-3 {
     align-self: stretch;
-    background-color: #d8d8d880;
+    background-image: url();
     flex: 1;
     flex-grow: 1;
     position: relative;

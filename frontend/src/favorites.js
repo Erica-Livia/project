@@ -1,7 +1,7 @@
 import React from "react";
-import './booking.css';
+import './favorites.css';
 
-const Booking = () => {
+const Favorites = () => {
     return(
         <>
         <div className="bookingcard">
@@ -33,3 +33,5 @@ const Booking = () => {
         </>
     )
 }
+
+export default Favorites;

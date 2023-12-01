@@ -3,18 +3,18 @@ import './place.css';
 import Card from "./card";
 import Popular from "./popular";
 
-const Place = () => {
+const Place = ({ img, img1, img2, title, shortdesc, desc, price}) => {
     return (
         <>
         <div className="place-description">
       <div className="frame-7">
-        <div className="text-wrapper-3">Gishora Drum Sanctuary</div>
+        <div className="text-wrapper-3">{title}</div>
         <img src='' />
       </div>
       <div className="images">
-        <img className="img" alt="" src="" />
-        <img className="img" alt="" src="" />
-        <img className="img" alt="" src=""/>
+        <img className="img"  src={img} />
+        <img className="img" alt="" src={img1} />
+        <img className="img" alt="" src={img2}/>
       </div>
       <div className="review">
         <div className="frame-9">
@@ -26,38 +26,16 @@ const Place = () => {
       </div>
       
       <div className="summary">
-          <p>Summary</p>
+          <p>{shortdesc}</p>
       </div>
       <div className="container">
         <div className="description">
-          <p>
-            Gishora Drum Sanctuary is a mesmerizing cultural haven nestled in the heart of Burundi. This enchanting
-            sanctuary is a testament to the rich heritage and traditions of the Burundian people. With its vibrant
-            atmosphere and captivating rhythms, the Gishora drum sanctuary offers visitors a unique opportunity to
-            immerse themselves in the captivation world of traditional drumming. Visitors witness the powerful
-            performances and experience the rich cultural heritage of Burundi firsthand.
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus magna vel tincidunt aliquet.
-            Praesent eget tincidunt erat. Sed nunc tortor, malesuada a arcu in, euismod imperdiet ipsum. Cras vestibulum
-            ultricies arcu varius facilisis. Integer eu turpis euismod risus vestibulum ultrices at sit amet libero.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus magna vel tincidunt aliquet.
-            Praesent eget tincidunt erat. Sed nunc tortor, malesuada a arcu in, euismod imperdiet ipsum. Cras vestibulum
-            ultricies arcu varius facilisis. Integer eu turpis euismod risus vestibulum ultrices at sit amet libero.
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus magna vel tincidunt aliquet.
-            Praesent eget tincidunt erat. Sed nunc tortor, malesuada a arcu in, euismod imperdiet ipsum. Cras vestibulum
-            ultricies arcu varius facilisis. Integer eu turpis euismod risus vestibulum ultrices at sit amet libero.
-          </p>
+          <p>{desc}</p>
         </div>
         <div className="frame-12">
           <div className="frame-13">
             <p className="element-per-person">
-              <span className="span">
-                20$
-                <br />
-              </span>
+              <span className="span">{price}</span>
               <span className="text-wrapper-7">per person</span>
             </p>
             <div className="frame-14">

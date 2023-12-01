@@ -17,7 +17,9 @@ padding: 60px 2044px;
 position: relative;
 max-width: 100%;
 }
-
+.container .button .tit{
+  color: rgb(64, 81, 64);
+}
 p {
 color: #000200;
 font-family: "Roboto", Helvetica;
@@ -42,8 +44,7 @@ text-align: center;
 width: 520px;
 }
 
-.button {
-all: unset;
+.container .button {
 align-items: flex-start;
 box-sizing: border-box;
 display: inline-flex;
@@ -51,11 +52,14 @@ flex: 0 0 auto;
 flex-direction: column;
 gap: 12px;
 position: relative;
+cursor: pointer;
+color: rgb(64, 81, 64);
+border-radius: 8px;
 }
 
 .title-wrapper {
 align-items: center;
-background-color: #000000;
+background-color: rgb(64, 81, 64);
 border-radius: 8px;
 display: flex;
 flex: 0 0 auto;
@@ -106,4 +110,23 @@ position: relative;
 .container .list .item-4 .icon-wrapper .icon {
 
 font-size: 30px;
+}
+
+button {
+  width: 150px;
+  background-color: rgb(64, 81, 64);
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button .link {
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  transform: scale(0.9);
 }

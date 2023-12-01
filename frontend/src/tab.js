@@ -26,7 +26,7 @@ export const Tab = ({ option, className, frame = "https://c.animaapp.com/mudMg3N
         }}
       >
         <img className="img" alt="Frame" src={frame} />
-        <div className="title-2">Culture</div>
+        <div className="title">Culture</div>
       </div>
       <div
         className={`item-3 option-0-${state.option}`}
@@ -35,7 +35,7 @@ export const Tab = ({ option, className, frame = "https://c.animaapp.com/mudMg3N
         }}
       >
         <img className="img" alt="Frame" src="https://c.animaapp.com/mudMg3Nq/img/frame-10.svg" />
-        <div className="title-3">Activities</div>
+        <div className="title">Activities</div>
       </div>
     </div>
   );

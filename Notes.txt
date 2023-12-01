@@ -79,7 +79,7 @@ New Goals:
     🟥 bookingCard component
     🟥 login&signup
 
-    🟥🟥 Meeting with Lib&Sen
+    Meeting with Lib&Sen ✅
 
     Readme✅
 

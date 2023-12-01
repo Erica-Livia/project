@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './nav'
 import Rout from './rout';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Link  } from 'react-router-dom';
 import Footer from './footer';
 const App = () => {
   return (

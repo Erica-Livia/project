@@ -1,97 +1,145 @@
 import React from "react";
 import './destinations.css';
-import { Card } from "./card";
+import  Card from "./card";
+import Popular1 from "./popular1";
 
 const Destinations = () => {
     return(
         <>
         <div className="destinations">
         <div className="filter">
-            <div className="item">
-            <div className="title-4">Interests</div>
-            <img className="img" alt="Frame" src="https://c.animaapp.com/6YPq8HBQ/img/frame-3.svg" />
-            </div>
-            <div className="item">
-            <div className="title-4">Regions</div>
-            <img className="img" alt="Frame" src="https://c.animaapp.com/6YPq8HBQ/img/frame-2.svg" />
-            </div>
-            <div className="item">
-            <div className="title-4">Activity Type</div>
-            <img className="img" alt="Frame" src="https://c.animaapp.com/6YPq8HBQ/img/frame-1.svg" />
-            </div>
-            <div className="item-2">
-            <div className="title-4">Price Range</div>
-            <img className="img" alt="Frame" src="https://c.animaapp.com/6YPq8HBQ/img/frame.svg" />
-            </div>
+        <label className="item">
+          <input  type="radio" value="" name="test" />
+          <span className="title-4"></span>All
+        </label>
+        <label className="item">
+          <input  type="radio" value="" name="test" />
+          <span className="title-4"></span>Cultural Experience
+        </label>
+        <label className="item">
+          <input  type="radio" value="" name="test" />
+          <span className="title-4"></span>Destinations
+        </label>
+        <label className="item">
+          <input  type="radio" value="" name="test" />
+          <span className="title-4"></span>Activities
+        </label>
         </div>
-        <div className="cards">
-            <Card state="default" />
-            <Card state="default" />
-            <Card state="default" />
-            <Card state="default" />
-            <Card state="default" />
-            <Card state="default" />
-            <Card state="default" />
-            <Card state="default" />
+        <div className="frame-5">
+        <Card 
+          img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1"
+          title="Gishora Drum Sanctuary"
+          price="$12"
+          shortdesc={"Gishora Drum Sanctuary is a mesmerizing cultural haven nestled in the heart of Burundi."}
+          
+      />
+         <Card 
+          img="https://travel2unlimited.com/wp-content/uploads/2015/02/5-12.jpg"
+          title="Musée Vivant"
+          price="$5"
+          shortdesc={"Zoo, Like everyone es"}
+      />
+      <Card 
+          img="https://live.staticflickr.com/4827/45330425754_112571cca4_b.jpg"
+          title="Lake Tanganyika - Saga Plage"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://i.pinimg.com/originals/ab/35/b2/ab35b253ac309e29dafaa7388af37202.jpg"
+          title="Teza Tea Plantation"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://pbs.twimg.com/media/FabmRC5XgAAyPEV.jpg"
+          title="Karera Waterfalls"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://www.oldsite.transnational.org/SAJT/bilder2/burundipics/gitega_museum_3.jpg"
+          title="Gitega's National Museum"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1"
+          title="Gishora Drum Sanctuary"
+          price="$12"
+          shortdesc={"Gishora Drum Sanctuary is a mesmerizing cultural haven nestled in the heart of Burundi."}
+          
+      />
+         <Card 
+          img="https://travel2unlimited.com/wp-content/uploads/2015/02/5-12.jpg"
+          title="Musée Vivant"
+          price="$5"
+          shortdesc={"Zoo, Like everyone es"}
+      />
+      <Card 
+          img="https://live.staticflickr.com/4827/45330425754_112571cca4_b.jpg"
+          title="Lake Tanganyika - Saga Plage"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://i.pinimg.com/originals/ab/35/b2/ab35b253ac309e29dafaa7388af37202.jpg"
+          title="Teza Tea Plantation"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://pbs.twimg.com/media/FabmRC5XgAAyPEV.jpg"
+          title="Karera Waterfalls"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://www.oldsite.transnational.org/SAJT/bilder2/burundipics/gitega_museum_3.jpg"
+          title="Gitega's National Museum"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1"
+          title="Gishora Drum Sanctuary"
+          price="$12"
+          shortdesc={"Gishora Drum Sanctuary is a mesmerizing cultural haven nestled in the heart of Burundi."}
+          
+      />
+         <Card 
+          img="https://travel2unlimited.com/wp-content/uploads/2015/02/5-12.jpg"
+          title="Musée Vivant"
+          price="$5"
+          shortdesc={"Zoo, Like everyone es"}
+      />
+      <Card 
+          img="https://live.staticflickr.com/4827/45330425754_112571cca4_b.jpg"
+          title="Lake Tanganyika - Saga Plage"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://i.pinimg.com/originals/ab/35/b2/ab35b253ac309e29dafaa7388af37202.jpg"
+          title="Teza Tea Plantation"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://pbs.twimg.com/media/FabmRC5XgAAyPEV.jpg"
+          title="Karera Waterfalls"
+          price=""
+          shortdesc={""}
+      />
+      <Card 
+          img="https://www.oldsite.transnational.org/SAJT/bilder2/burundipics/gitega_museum_3.jpg"
+          title="Gitega's National Museum"
+          price=""
+          shortdesc={""}
+      />
         </div>
-        {/* <div className="frame-4">
-            <img
-            className="icon-arrow-ios-back"
-            alt="Icon arrow ios back"
-            src="https://c.animaapp.com/6YPq8HBQ/img/---icon--arrow-ios-back-@2x.png"
-            />
-            <div className="frame-5">
-            <div className="text-wrapper-3">1</div>
-            </div>
-            <div className="frame-6">
-            <div className="text-wrapper-3">2</div>
-            </div>
-            <div className="frame-6">
-            <div className="text-wrapper-3">3</div>
-            </div>
-            <img
-            className="icon-arrow-ios"
-            alt="Icon arrow ios"
-            src="https://c.animaapp.com/6YPq8HBQ/img/---icon--arrow-ios-forward-@2x.png"
-            />
-        </div> */}
         
-        <div className="container">
-            <div className="title-5">Popular Tourist Attractions</div>
-            <p className="description">Discover the must-visit places in Burundi.</p>
-            <div className="list">
-            <div className="item-3">
-                <div className="icon-wrapper">
-                <div className="icon">🏞️</div>
-                </div>
-                <div className="frame-7">
-                <div className="title-7">Kibira National Park</div>
-                <div className="subtitle-2">Bujumbura</div>
-                </div>
-                <div className="subtitle-3">Rated 4.8/5</div>
-            </div>
-            <div className="item-3">
-                <div className="icon-wrapper">
-                <div className="icon">🏛️</div>
-                </div>
-                <div className="frame-7">
-                <div className="title-7">Gitega National Museum</div>
-                <div className="subtitle-2">Gitega</div>
-                </div>
-                <div className="subtitle-3">Rated 4.6/5</div>
-            </div>
-            <div className="item-3">
-                <div className="icon-wrapper">
-                <div className="icon">⛰️</div>
-                </div>
-                <div className="frame-7">
-                <div className="title-7">Ruvubu National Park</div>
-                <div className="subtitle-2">Karuzi</div>
-                </div>
-                <div className="subtitle-3">Rated 4.7/5</div>
-            </div>
-            </div>
-        </div>
+        <Popular1 />
         
         </div>
         </>

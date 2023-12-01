@@ -1,12 +1,13 @@
 .tab {
     align-items: flex-start;
-    background-color: #000000;
+    background-color: rgb(64, 81, 64);
     display: flex;
     gap: 48px;
     justify-content: center;
     padding: 0px;
     position: relative;
     max-width: 100%;
+    border-bottom: 1px solid white;
   }
   
   .tab .item {
@@ -35,6 +36,17 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    cursor: pointer;
+  }
+
+  .tab .title:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+  }
+  .tab img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.8s;
   }
   
   .tab .item-2 {
@@ -56,6 +68,7 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    cursor: pointer;
   }
   
   .tab .item-3 {
@@ -77,11 +90,12 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    cursor: pointer;
   }
   
   .tab .destination {
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 4px;
     border-color: #ffffff;
   }
   
@@ -91,7 +105,7 @@
   
   .tab .option-culture {
     border-bottom-style: solid;
-    border-bottom-width: 3px;
+    border-bottom-width: 4px;
     border-color: #ffffff;
     padding: 16px 8px 8px 0px;
   }
@@ -110,7 +124,7 @@
   
   .tab .option-0-activity {
     border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom-width: 4px;
     border-color: #ffffff;
     padding: 16px 8px 8px 0px;
   }

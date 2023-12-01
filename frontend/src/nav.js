@@ -9,7 +9,7 @@ import { FaCircleUser } from "react-icons/fa6";
 import './nav.css';
 
 
-const Nav = () => {
+const Nav = ( { handleInputChange, query}) => {
     const {loginWithRedirect, logout, user, isAuthenticated } = useAuth0();
 
     return (
@@ -20,22 +20,27 @@ const Nav = () => {
                 <Link to='/home' className="link">Wanderlust</Link>
                 </div>
                 <div className='search_box'>
-                    <input type='text' value='' placeholder='Search your Destination' autoComplete="off"></input>
-                    <a className='button'><CiSearch /></a>
+                    <input 
+                    className="search-input"
+                    type="text"
+                    onChange={handleInputChange}
+                    value={query}
+                    placeholder="Search your Destination"
+                    />
+                    {/* <input type='text' value='' placeholder='Search your Destination' autoComplete="off"></input>
+                    <a className='button'><CiSearch /></a> */}
+                     <a className='button'><CiSearch /></a>
                 </div>
                 <div className="nav">
                             <ul>
                                 <li>
                                     <Link to='/destinations' className="link">Destinations</Link>
                                 </li>
-                                <li>
-                                    <Link to='/guides' className="link">Guides</Link>
-                                </li>
                                 {
                                     isAuthenticated &&
                                     (
                                         <li>
-                                            <Link to='/bookings' className="link">Bookings</Link>
+                                            <Link to='/favorites' className="link">Favorites</Link>
                                         </li>
                                     )
                                 }
@@ -43,7 +48,7 @@ const Nav = () => {
                                     isAuthenticated &&
                                     (
                                         <li>
-                                            <Link to='/profile' className='link'><div className='icon'><FaCircleUser /></div></Link>
+                                            <Link to='/profile' className='link'>Profile</Link>
                                         </li>
                                     )
                                 }                                
@@ -55,9 +60,9 @@ const Nav = () => {
                              <div className='auth'>
                                 {
                                     isAuthenticated ?
-                                    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })} alt='logout'><IoLogOutOutline /></button>
+                                    <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })} alt='logout'>Logout</button>
                                     :
-                                    <button onClick={() => loginWithRedirect()} alt='login'><IoLogInOutline /></button>
+                                    <button onClick={() => loginWithRedirect()} alt='login'>Login</button>
                                 }
                             </div>
 
