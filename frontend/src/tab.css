@@ -21,9 +21,12 @@
   }
   
   .tab .img {
-    height: 24px;
+    font-size: 28px;
+    color:white;
+    height: 44px;
     position: relative;
-    width: 24px;
+    width: 44px;
+    cursor: pointer;
   }
   
   .tab .title {

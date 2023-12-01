@@ -1,6 +1,6 @@
 .frame-wrapper {
     align-items: flex-start;
-    background-color: #000000;
+    background-color: rgb(64, 81, 64);
     display: flex;
     gap: 60px;
     justify-content: center;

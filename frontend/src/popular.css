@@ -1,11 +1,4 @@
-.popular{
-  padding: 0 200px;
-  border-bottom: 1px solid black;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width:100%;
-}
+
 .container{
 align-items: center;
 display: flex;
@@ -13,7 +6,7 @@ flex: 0 0 auto;
 gap: 24px;
 justify-content: center;
 overflow: hidden;
-padding: 60px 2044px;
+padding: 60px 170px;
 position: relative;
 max-width: 100%;
 }
@@ -85,14 +78,10 @@ white-space: nowrap;
 
 .list {
 align-items: flex-start;
-align-self: stretch;
 display: flex;
 flex: 0 0 auto;
-gap: 40px;
-justify-content: center;
-padding: 20px 0px;
+justify-content: space-between;
 position: relative;
-width: 100%;
 }
 
 .item-4 {
@@ -101,15 +90,35 @@ display: flex;
 flex: 1;
 flex-direction: column;
 flex-grow: 1;
-gap: 20px;
+gap: 0px;
 justify-content: center;
 padding: 12px 0px;
-position: relative;
 }
 
-.container .list .item-4 .icon-wrapper .icon {
+.container .list .item-4 .icon-wrapper {
+  overflow: hidden;
+  align-items: center;
+  cursor: pointer;
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+}
+.container .list .item-4 .icon-wrapper:hover{
+  transform: scale(0.94);
+}
+.container .list .item-4 .icon-wrapper img {
+height: 150px;
+align-self: stretch;
+width: 100%;
+}
 
-font-size: 30px;
+.container .list .item-4 .icon-wrapper .img1 {
+  height: 250px;
+  align-self: stretch;
+  width: auto;
+  padding-left: 0;
+  padding-top: 0px;
+  padding-bottom: 2px;
 }
 
 button {

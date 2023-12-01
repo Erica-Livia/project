@@ -1,14 +1,12 @@
 .place-description {
-    align-items: flex-start;
+    /* align-items: flex-start;
     display: flex;
     position: relative;
-    flex-direction: column;
+    flex-direction: column; */
     margin: 0;
     padding:0;
     width:100%;
 }
-
-/* Place description sidebar isn't needed */
 
 
 /* title */
@@ -33,31 +31,17 @@
 
 .place-description .images {
     display:flex;
+    align-items: flex-start;
     position: relative;
     flex-wrap: wrap;
     height:300px;
-    padding: 0px, 170px;
+    padding: 30px 170px;
+    height:auto;
   }
-
-.place-description .review{
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    padding: 10px 170px;
-}
-.place-description .review  .frame-9 {
-    align-items: center;
-display: inline-flex;
-flex: 0 0 auto;
-gap: 10px;
-justify-content: center;
-padding: 10px;
-position: relative;
-}
 
 .summary {
     display: flex;
-    padding: 20px 170px;
+    padding: 60px 170px;
     width:100%;
 }
 .summary p {
@@ -73,15 +57,28 @@ position: relative;
     padding:0;
 }
 
-.container .description {
+.img {
+    height:350px; 
+    padding: 10px;
+}
+
+.img1 {
+    height: 300px;
+    width: auto;
+    padding: 10px;
+}
+.img2 {
+    height: 300px;
+    width: auto;
+    padding: 10px;
+}
+
+.frame-5 {
+    align-items: flex-start;
+    position: relative;
+    max-width: 100%;
     display: flex;
-    padding:0;
-    align-items: center;
-    padding: 0px 170px;
+    flex-wrap: wrap; 
+    gap: 50px 10px;
+    padding: 50px 130px;
 }
-
-.container .description  p{
-    font-size:16px;
-    font-weight: 100;
-}
-
