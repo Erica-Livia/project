@@ -8,7 +8,7 @@ There are two ways you can access and view the Wanderlust website:
 
 ### -------Live Website-------
 
-The live Wanderlust Website is deployed on Netlify:
+The live Wanderlust Website is deployed on Vercel:
 
 [wanderlustbi.com](https:wanderlustbi.netlify.app)
 
