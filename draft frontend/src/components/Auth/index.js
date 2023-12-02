@@ -1,1 +1,0 @@
-export { Logincard } from "./Logincard";
