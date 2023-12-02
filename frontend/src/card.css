@@ -1,8 +1,7 @@
 .card {
     background-color: #ffffff;
-    border: 1px solid;
-    border-color: #0000001a;
-    border-radius: 6px;
+    border: 1px solid rgb(64, 81, 64);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     overflow: hidden;

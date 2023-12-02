@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 
-const Card = ({ img, title, shortdesc, price}) => {
+const Card = ({ img, title, shortdesc, price, link}) => {
     const [state] = useState([]);
     return (
         <>
@@ -22,7 +22,7 @@ const Card = ({ img, title, shortdesc, price}) => {
                 <h4 className="price">{price}</h4>
                 {/* {state === "default" && ( */}
                     <div className="primary">
-                        <div className="title-6"><Link to='/place' className="link">View More</Link></div>
+                        <div className="title-6"><Link to= {link} className="link">View More</Link></div>
                     </div>
                   {/* )} */}
             </div>

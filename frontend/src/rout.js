@@ -2,27 +2,47 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import Home from './home';
 import Destinations from './destinations';
-import Place from './place';
-import Guides from './guides';
-import Card from './card';
+import Gishora from './places/gishora';
+import Gasumo from './places/gasumo';
+import Heha from './places/heha';
+import Karera from './places/karera';
+import Kibira from './places/kibira';
+import Nationale from './places/museenationale';
+import Vivant from './places/museevivant';
+import Night from './places/nightlife';
+import Nile from './places/nilesource';
+import Rumonge from './places/rumonge';
+import Rusizi from './places/rusizi';
+import Ruvubu from './places/ruvubu';
+import Sagaplage from './places/sagaplage';
+import Stanley from './places/stanley';
+import Sunstone from './places/sunstone';
+import Teza from './places/teza';
+
 
 const Rout = () => {
-    const placesData = [
-        { id: 1, title: 'Gishora Drum Sanctuary', img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1', shortdesc: '', price: '$20' },
-        { id: 1, title: 'Gishora Drum Sanctuary', img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1', shortdesc: '', price: '$20' },
-        { id: 1, title: 'Gishora Drum Sanctuary', img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1', shortdesc: '', price: '$20' },
-        { id: 1, title: 'Gishora Drum Sanctuary', img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1', shortdesc: '', price: '$20' },
-        { id: 1, title: 'Gishora Drum Sanctuary', img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1', shortdesc: '', price: '$20' },
-        { id: 1, title: 'Gishora Drum Sanctuary', img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d2/0e/05/caption.jpg?w=300&h=300&s=1', shortdesc: '', price: '$20' },
-    ];
     return (
         <>
         <Routes>
         <Route path='/' element={<Home />} />   
         <Route path='/home' element={<Home />} />
         <Route path='/destinations' element={<Destinations />} />
-        <Route path='/place' element={<Place />} />
-        <Route path='/guides' element={<Guides />} />
+        <Route path='/gishora' element={<Gishora />} />
+        <Route path='/heha' element={<Heha />} />
+        <Route path='/gasumo' element={<Gasumo />} />
+        <Route path='/karera' element={<Karera />} />
+        <Route path='/kibira' element={<Kibira />} />
+        <Route path='/museenationale' element={<Nationale />} />
+        <Route path='/museevivant' element={<Vivant />} />
+        <Route path='/night' element={<Night />} />
+        <Route path='/nile' element={<Nile />} />
+        <Route path='/rumonge' element={<Rumonge />} />
+        <Route path='/rusizi' element={<Rusizi />} />
+        <Route path='/ruvubu' element={<Ruvubu />} />
+        <Route path='/sagaplage' element={<Sagaplage />} />
+        <Route path='/stanley' element={<Stanley />} />
+        <Route path='/sunstone' element={<Sunstone />} />
+        <Route path='/teza' element={<Teza />} />
         
         </Routes>
         </>

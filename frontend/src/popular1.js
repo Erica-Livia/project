@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 const Popular = () => {
     return (
         <>
-        <div className="container">
+        <div className="pop">
           <p>Popular Tourist Attractions</p>
-          <p className="description">Discover the must-visit places in Burundi.</p>
+          <div className="popdescription">
+          </div>
           <div className="list">
             <div className="item-4">
             <div className="icon-wrapper">
-                <img src="https://i0.wp.com/fortuneofafrica.com/burundi/wp-content/uploads/sites/8/2013/07/Kibira_Forest.jpg?resize=375%2C500" className="img1" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG_j-QqgLHWuz10tOacmZruVZQI-CjLV3Dbg&usqp=CAU" className="img1" />
               </div>
               <div className="frame-7">
                 <div className="title-11">Kibira National Park</div>
@@ -31,7 +32,7 @@ const Popular = () => {
             </div>
             <div className="item-4">
             <div className="icon-wrapper">
-                <img src="https://img.ev.mu/images/attractions/3958/960x640/757900.jpg" />
+                <img src="https://img.ev.mu/images/attractions/3958/960x640/757900.jpg"  className=""/>
               </div>
               <div className="frame-7">
                 <div className="title-11">Ruvubu National Park</div>

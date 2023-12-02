@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 const Popular = () => {
     return (
         <>
-        <div className="container">
+        <div className="pop">
           <p>Popular Tourist Attractions</p>
-          <p className="description">Discover the must-visit places in Burundi.</p>
+          <div className="popdescription">
+          </div>
           <div className="list">
             <div className="item-4">
             <div className="icon-wrapper">
