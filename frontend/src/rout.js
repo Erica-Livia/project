@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from './home';
-import Destinations from './destinations';
+import Home from './components/home';
+import Destinations from './components/destinations';
 import Gishora from './places/gishora';
 import Gasumo from './places/gasumo';
 import Heha from './places/heha';
@@ -18,7 +18,7 @@ import Sagaplage from './places/sagaplage';
 import Stanley from './places/stanley';
 import Sunstone from './places/sunstone';
 import Teza from './places/teza';
-import Destination from './destination';
+import Destination from './components/destination';
 
 const Rout = () => {
     return (

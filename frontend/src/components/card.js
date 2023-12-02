@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React, { useState } from 'react';
-import "./card.css";
+import "./css/card.css";
 import { Link } from "react-router-dom";
 
 

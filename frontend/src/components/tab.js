@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import { useReducer } from "react";
-import "./tab.css";
+import "./css/tab.css";
 import { LuMapPin } from "react-icons/lu";
 import { GiDogHouse } from "react-icons/gi";
 import { FaHiking } from "react-icons/fa";

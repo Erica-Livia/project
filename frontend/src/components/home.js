@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
-import './home.css';
+import './css/home.css';
 import  GroupCards  from './groupcards';
 import Tab from './tab';
-import Footer from './footer';
 import { FaCircleUser } from "react-icons/fa6";
 import Popular from './popular';
 const Home = () => {

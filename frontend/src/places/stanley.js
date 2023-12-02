@@ -1,7 +1,7 @@
 import React from "react";
 import './place.css';
-import Card from "../card";
-import Popular from "../popular";
+import Card from "../components/card";
+import Popular from "../components/popular";
 
 const Stanley = () => {
     return (
