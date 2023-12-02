@@ -1,6 +1,6 @@
 # Wanderlust- Tourism Website
 
-Wanderlust is a tourism website from the project Discover Burundi, built using React, Node.js and MongoDB. It allows users to discover travel destinations in Burundi.
+Wanderlust is a tourism website from the project Discover Burundi, built using ReactJs. It allows users to discover travel destinations in Burundi.
 
 ## Accessing the Website
 
