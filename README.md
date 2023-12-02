@@ -10,7 +10,7 @@ There are two ways you can access and view the Wanderlust website:
 
 The live Wanderlust Website is deployed on Vercel:
 
-[wanderlustbi.com](https:wanderlustbi.netlify.app)
+[wanderlustbi.com](https://wanderlust-alpha.vercel.app/)
 
 ### ----------Locally----------
 
