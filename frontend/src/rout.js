@@ -18,7 +18,7 @@ import Sagaplage from './places/sagaplage';
 import Stanley from './places/stanley';
 import Sunstone from './places/sunstone';
 import Teza from './places/teza';
-
+import Destination from './destination';
 
 const Rout = () => {
     return (
@@ -43,6 +43,7 @@ const Rout = () => {
         <Route path='/stanley' element={<Stanley />} />
         <Route path='/sunstone' element={<Sunstone />} />
         <Route path='/teza' element={<Teza />} />
+        <Route path='/destination' element={<Destination />} />
         
         </Routes>
         </>
